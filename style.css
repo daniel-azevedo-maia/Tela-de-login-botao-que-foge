@@ -1,98 +1,61 @@
-/* Made with love by Mutiullah Samim*/
+/* Importa fonte do Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-@import url('https://fonts.googleapis.com/css?family=Numans');
-
-html,body{
-background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg?w=996&t=st=1676505532~exp=1676506132~hmac=6b14ade974c134097dc1c643618629fccd880da32a3682366a1e3d3d314d8aad');
-background-size: cover;
-background-repeat: no-repeat;
-height: 100%;
-font-family: 'Numans', sans-serif;
+/* Configuração geral */
+html,
+body {
+  height: 100%;
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg?w=996&t=st=1676505532~exp=1676506132~hmac=6b14ade974c134097dc1c643618629fccd880da32a3682366a1e3d3d314d8aad");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }
 
-.container{
-height: 100%;
-align-content: center;
+/* Centraliza o conteúdo */
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.card{
-height: 370px;
-margin-top: auto;
-margin-bottom: auto;
-width: 400px;
-background-color: rgba(0,0,0,0.5) !important;
+/* Estilização do card */
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 400px;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-.card-body {
-    margin-bottom: -30px;
+.card-header h3 {
+  color: #ffc312;
 }
 
-.form-group {
-    margin-top: 10px;
-
+.card-header p {
+  font-size: 0.9rem;
+  color: #aaa;
 }
 
-.social_icon span{
-font-size: 60px;
-margin-left: 10px;
-color: #FFC312;
+.input-group-text {
+  background-color: #ffc312;
+  color: #000;
 }
 
-.social_icon span:hover{
-color: white;
-cursor: pointer;
+.form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
 }
 
-.card-header h3{
-color: white;
+.form-control::placeholder {
+  color: #ddd;
 }
 
-.social_icon{
-position: absolute;
-right: 20px;
-top: -45px;
-}
-
-.input-group-prepend span{
-width: 50px;
-background-color: #FFC312;
-color: black;
-border:0 !important;
-}
-
-input:focus{
-outline: 0 0 0 0  !important;
-box-shadow: 0 0 0 0 !important;
-
-}
-
-.remember{
-color: white;
-}
-
-.remember input
-{
-width: 20px;
-height: 20px;
-margin-left: 15px;
-margin-right: 5px;
-}
-
-.login_btn{
-color: black;
-background-color: #FFC312;
-width: 100px;
-}
-
-.login_btn:hover{
-color: black;
-background-color: white;
-}
-
-.links{
-color: white;
-}
-
-.links a{
-margin-left: 4px;
-}
+.login_btn {
+  background-color: #ffc312;
+  color: #000;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  tr
